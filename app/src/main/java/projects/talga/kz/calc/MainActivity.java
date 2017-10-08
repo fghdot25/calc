@@ -56,8 +56,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent goToGpaActivity = new Intent(this, GPA_Activity.class);
                 startActivity(goToGpaActivity);
                 break;
+            case R.id.todo_btn:
+                Intent goToAuth = new Intent(this, AuthTodo.class);
+                startActivity(goToAuth);
+                break;
             default:
-                Toast.makeText(MainActivity.this, "Error!", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Error motherfucker!", Toast.LENGTH_LONG).show();
         }
 
     }

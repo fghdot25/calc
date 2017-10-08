@@ -8,4 +8,30 @@
     android:padding="5dp"
     tools:context="projects.talga.kz.calc.AuthTodo">
 
+    <EditText
+        android:id="@+id/tvUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/tvPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/btn_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN" />
+
+    <Button
+        android:id="@+id/btn_registr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign UP" />
+
+
 </LinearLayout>
