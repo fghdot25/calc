@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "710847300731",
+    "firebase_url": "https://todo-b7133.firebaseio.com",
+    "project_id": "todo-b7133",
+    "storage_bucket": "todo-b7133.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710847300731:android:c85868e6d7917ff4",
+        "android_client_info": {
+          "package_name": "projects.talga.kz.calc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710847300731-qd0or5irbkreblpslajaoj7g884gntll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "projects.talga.kz.calc",
+            "certificate_hash": "35ebdb64beda0ca6c7cf71f85946593df2628062"
+          }
+        },
+        {
+          "client_id": "710847300731-gks5t7p87aofaspn34scbsc93hn8jp3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNbhLKzkWtuycrw18450t1lmcNBCU5vbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710847300731-gks5t7p87aofaspn34scbsc93hn8jp3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

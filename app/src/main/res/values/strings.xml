@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">StudentsCalculator</string>
+
+
+    <!-- MAIN Buttons text -->
+    <string name="midterm_btn_text">Midterms</string>
+    <string name="gpa_btn_text">GPA</string>
+    <string name="converter_btn_text">To do list</string>
+    <string name="attendance_btn_text">Attendance</string>
+
+
+    <!-- text -->
+    <string name="gpa_text_view">GPA:</string>
+    <string name="midterm_rb_text">Midterm 1</string>
+    <string name="midterm_rb2_text">Midterm 2</string>
+    <string name="midterm1_text_view">Midterm 1:</string>
+    <string name="midterm2_text_view">Midterm 2:</string>
+
+    <string name="grade">Grade</string>
+    <string name="total_text_view">TOTAL :</string>
+    <string name="calculate_btn">Calculate</string>
+    <string name="reset_btn">Reset</string>
+    <string name="credits">Credits</string>
+    <string name="cumulative_gpa">Cumulative GPA:</string>
+    <string name="semester_gpa">Semester GPA:</string>
+
+
+    <!-- Numbers -->
+    <string name="number">Course</string>
+    <string name="_0">0</string>
+    <string name="_1">Course 1</string>
+    <string name="_2">Course 2</string>
+    <string name="_3">Course 3</string>
+    <string name="_4">Course 4</string>
+    <string name="_5">Course 5</string>
+    <string name="_6">Course 6</string>
+    <string name="_7">Course 7</string>
+    <string name="_8">Course 8</string>
+    <string name="gpa_caclulator">GPA Caclulator</string>
+    <string name="attention">ATTENTION! PE and Military Department do not counted</string>
+    <string name="previous_gpa">Previous GPA:</string>
+
+
+    <string-array name="grade_names">
+        <item> </item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>F</item>
+    </string-array>
+    <string name="warning_text_title">Warning!</string>
+    <string name="warning_text">Please check one midterm!</string>
+
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Студент есептеуіші</string>
+    <string name="attendance_btn_text">Сабаққа қатысуы</string>
+    <string name="calculate_btn">Есептеу</string>
+    <string name="converter_btn_text">To do list</string>
+    <string name="gpa_btn_text">GPA</string>
+    <string name="midterm1_text_view">Аттестация 1:</string>
+    <string name="midterm2_text_view">Аттестация 2:</string>
+    <string name="midterm_btn_text">Аттестация</string>
+    <string name="midterm_rb2_text">Аттестация 2</string>
+    <string name="midterm_rb_text">Аттестация 1</string>
+    <string name="reset_btn" translatable="false">Тазалау</string>
+    <string name="total_text_view">CЕМЕСТР:</string>
+    <string name="warning_text_title">Warning!</string>
+    <string name="_0">0</string>
+    <string name="warning_text">Please check one midterm!</string>
+    <string name="_6">Сабақ 6</string>
+    <string name="_5">Сабақ 5</string>
+    <string name="_1">Сабақ 1</string>
+    <string name="_2">Сабақ 2</string>
+    <string name="_3">Сабақ 3</string>
+    <string name="_4">Сабақ 4</string>
+    <string name="_7">Сабақ 7</string>
+    <string name="_8">Сабақ 8</string>
+    <string name="credits">Кредит саны</string>
+    <string name="grade">Бағасы</string>
+    <string name="number">Сабақ</string>
+    <string name="previous_gpa">Алдыңғы GPA:</string>
+    <string name="gpa_caclulator">GPA Есептеуіш</string>
+    <string name="gpa_text_view">GPA:</string>
+    <string name="attention">ЕСКЕРТУ: Д.Ш. мен Әскери дайындық GPA - ге есептелінбейді</string>
+</resources>

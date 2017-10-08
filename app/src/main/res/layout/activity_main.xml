@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_main_back"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="projects.talga.kz.calc.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:background="@color/color_main_back"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <Button
+            style="@style/main_buttons_styles"
+            android:id="@+id/midterm_button"
+            android:background="@color/back_color_01"
+            android:drawableLeft="@drawable/midtermicn"
+            android:onClick="goToActivity"
+            android:text="@string/midterm_btn_text"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:id="@+id/gpa_btn"
+            style="@style/main_buttons_styles"
+            android:background="@color/back_color_02"
+            android:drawableLeft="@drawable/gpaicon"
+            android:onClick="goToActivity"
+            android:text="@string/gpa_btn_text"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:id="@+id/todo_btn"
+            style="@style/main_buttons_styles"
+            android:background="@color/back_color_03"
+            android:drawableLeft="@drawable/convertericon"
+            android:text="@string/converter_btn_text"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:id="@+id/attendance_btn"
+            style="@style/main_buttons_styles"
+            android:background="@color/back_color_04"
+            android:drawableLeft="@drawable/attendaceicon"
+            android:text="@string/attendance_btn_text"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

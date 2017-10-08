@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор Студента</string>
+    <string name="attendance_btn_text">Посещаемость</string>
+    <string name="calculate_btn">Вычислить</string>
+    <string name="converter_btn_text">to do list</string>
+    <string name="midterm1_text_view">Аттестация 1:</string>
+    <string name="midterm2_text_view">Аттестация 2:</string>
+    <string name="midterm_btn_text">Аттестация</string>
+    <string name="midterm_rb2_text">Аттестация 2</string>
+    <string name="midterm_rb_text">Аттестация 1</string>
+    <string name="reset_btn" translatable="false">Сбросить</string>
+    <string name="total_text_view">СЕМЕСТР:</string>
+    <string name="warning_text_title">Warning!</string>
+    <string name="gpa_btn_text">GPA</string>
+    <string name="_0">0</string>
+    <string name="warning_text">Please check one midterm!</string>
+    <string name="_6">Урок 6</string>
+    <string name="_5">Урок 5</string>
+    <string name="_1">Урок 1</string>
+    <string name="_2">Урок 2</string>
+    <string name="_3">Урок 3</string>
+    <string name="_4">Урок 4</string>
+    <string name="_7">Урок 7</string>
+    <string name="_8">Урок 8</string>
+    <string name="credits">Кол. кредитов</string>
+    <string name="grade">Оценка</string>
+    <string name="number">Урок</string>
+    <string name="previous_gpa">Пред. GPA:</string>
+    <string name="gpa_caclulator">GPA Калькулятор</string>
+    <string name="gpa_text_view">GPA:</string>
+    <string name="attention">ПРИМИЧАНИЕ: Физ. культура и Военка НЕ входят в расчет GPA.</string>
+</resources>
