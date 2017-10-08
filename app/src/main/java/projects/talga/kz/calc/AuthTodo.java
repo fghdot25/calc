@@ -1,6 +1,5 @@
 package projects.talga.kz.calc;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -70,8 +69,8 @@ public class AuthTodo extends AppCompatActivity implements View.OnClickListener 
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
-                    Intent intent = new Intent(AuthTodo.this, TodoActivity.class);
-                    startActivity(intent);
+                   /* Intent intent = new Intent(AuthTodo.this, TodoActivity.class);
+                    startActivity(intent);*/
                     Toast.makeText(AuthTodo.this, "Succesfully", Toast.LENGTH_LONG).show();
                 } else {
                     Toast.makeText(AuthTodo.this, "Error dickhead!", Toast.LENGTH_LONG).show();
