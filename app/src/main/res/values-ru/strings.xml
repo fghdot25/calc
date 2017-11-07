@@ -30,4 +30,6 @@
     <string name="gpa_caclulator">GPA Калькулятор</string>
     <string name="gpa_text_view">GPA:</string>
     <string name="attention">ПРИМИЧАНИЕ: Физ. культура и Военка НЕ входят в расчет GPA.</string>
+    <string name="e_mail">E - Mail</string>
+    <string name="password">Password</string>
 </resources>

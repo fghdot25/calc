@@ -57,6 +57,10 @@
     </string-array>
     <string name="warning_text_title">Warning!</string>
     <string name="warning_text">Please check one midterm!</string>
+    <string name="log_in">LOG IN</string>
+    <string name="sign_up">Sign UP</string>
+    <string name="e_mail">E - Mail</string>
+    <string name="password">Password</string>
 
 
 </resources>

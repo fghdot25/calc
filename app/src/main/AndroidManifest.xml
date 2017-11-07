@@ -25,7 +25,8 @@
             android:name=".GPA_Activity"
             android:screenOrientation="portrait" />
         <activity android:name=".TodoActivity" />
-        <activity android:name=".AuthTodo"></activity>
+        <activity android:name=".AuthTodo" />
+        <activity android:name=".Register_activity"></activity>
     </application>
 
 </manifest>

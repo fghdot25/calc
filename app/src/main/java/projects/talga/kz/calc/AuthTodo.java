@@ -1,10 +1,12 @@
 package projects.talga.kz.calc;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -13,11 +15,14 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+
 public class AuthTodo extends AppCompatActivity implements View.OnClickListener {
 
+    public String password;
+    public String email;
     private EditText usernameEditText;
     private EditText passwordEditText;
-
+    private TextView forgotTV;
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
 
@@ -43,6 +48,7 @@ public class AuthTodo extends AppCompatActivity implements View.OnClickListener 
 
         usernameEditText = (EditText) findViewById(R.id.tvUsername);
         passwordEditText = (EditText) findViewById(R.id.tvPassword);
+        forgotTV = (TextView) findViewById(R.id.tv_forgot);
 
         findViewById(R.id.btn_signIn).setOnClickListener(this);
         findViewById(R.id.btn_registr).setOnClickListener(this);
@@ -58,7 +64,10 @@ public class AuthTodo extends AppCompatActivity implements View.OnClickListener 
 
         } else if (view.getId() == R.id.btn_registr) {
 
-            registr(usernameEditText.getText().toString(), passwordEditText.getText().toString());
+            Intent intent = new Intent(AuthTodo.this, Register_activity.class);
+            startActivity(intent);
+
+            // registr(usernameEditText.getText().toString(), passwordEditText.getText().toString());
 
         }
     }
@@ -68,12 +77,17 @@ public class AuthTodo extends AppCompatActivity implements View.OnClickListener 
         mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
+
                 if (task.isSuccessful()) {
-                   /* Intent intent = new Intent(AuthTodo.this, TodoActivity.class);
-                    startActivity(intent);*/
+
+                    Intent intent = new Intent(AuthTodo.this, TodoActivity.class);
+                    startActivity(intent);
+
                     Toast.makeText(AuthTodo.this, "Succesfully", Toast.LENGTH_LONG).show();
+
+
                 } else {
-                    Toast.makeText(AuthTodo.this, "Error dickhead!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(AuthTodo.this, "Error !", Toast.LENGTH_LONG).show();
                 }
 
 
@@ -81,17 +95,19 @@ public class AuthTodo extends AppCompatActivity implements View.OnClickListener 
         });
     }
 
-    public void registr(String email, String password) {
+
+
+/*    public void registr(String email, String password) {
         mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(AuthTodo.this, "Succesfully", Toast.LENGTH_LONG).show();
                 } else {
-                    Toast.makeText(AuthTodo.this, "Error motherfucker", Toast.LENGTH_LONG).show();
+                    Toast.makeText(AuthTodo.this, "Error !", Toast.LENGTH_LONG).show();
                 }
             }
         });
 
-    }
+    }*/
 }
